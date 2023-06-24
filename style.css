@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&family=Quicksand:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    width: 97%;
+    font-size: 1rem;
+    border: 1px solid #e5e5e5;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border-radius: 0.3rem;
+    transition:.4s ease all;
+}
+
+.btn-g{
+    color: white;
+    background-color: #89e219;
+    border: 0px solid #89e219;
+}
+
+.btn-g:hover{
+    border: 1px solid #89e219;
+    color: #89e219;
+    background-color: white;
+}
+
+.box-login{
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-login .container{
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 1px #e5e5e5;
+    padding: 1.5rem;
+}
+
+.box-login .container form .form-control{
+    margin: 1rem 0;
+}
+.box-login .container form button{
+    margin: 1rem 0;
+}
+
+.box-login .container form a{
+    color: #afafaf;
+    padding: 1rem 0;
+}

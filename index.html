@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>WhatsApp</title>
+</head>
+<body>
+   <main>
+    <div class="box-login">
+        <div class="container">
+            <div class="text-center">
+                <h1>Sign in</h1>
+            </div>
+            <form action="" onsubmit="validateForm(event)">
+                <div class="form-control">
+                    <label>Ingresa tu número de teléfono</label>
+                    <input type="number" name="numeroCelular" id="celular" required>
+                </div>
+                <div class="form-control">
+                    <label>Ingresa tu contraseña</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-g" type="submit">Ingresa</button>
+                </div>
+                <div class="text-center">
+                    <a href="">Sign up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+   </main>
+   <footer></footer>
+   <script src="./script.js"></script>
+</body>
+</html>
